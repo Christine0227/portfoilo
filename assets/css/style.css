@@ -425,7 +425,7 @@ p {
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #fc6e51;
+  color: #FFEBCD;
 }
 
 .dropdown-menu {
@@ -1943,7 +1943,7 @@ ul.features-list li {
 
 .offer-icon {
   font-size: 42px;
-  color: #fc6e51;
+  color: #FFEBCD;
   padding-bottom: 15px;
 }
 
@@ -2043,7 +2043,7 @@ ul.testimonials-slider li p {
 }
 
 .testimonials-author {
-  color: #fc6e51;
+  color: #FFEBCD;
 }
 
 .tc-arrows {
@@ -2056,10 +2056,10 @@ ul.testimonials-slider li p {
 
 .testimonials-carousel a.bx-next, .testimonials-carousel a.bx-prev {
   display: block;
-  color: #fc6e51;
+  color: #FFEBCD;
   width: 30px;
   height: 30px;
-  border: 1px solid #fc6e51;
+  border: 1px solid #FFEBCD;
   text-align: center;
   -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
@@ -2073,7 +2073,7 @@ ul.testimonials-slider li p {
 
 .testimonials-carousel a.bx-next:hover, .testimonials-carousel a.bx-prev:hover {
   color: #fff;
-  background: #fc6e51;
+  background: #FFEBCD;
 }
 
 .tc-arrow-left {
@@ -2582,7 +2582,7 @@ ul.features-app-list li {
 
 .app-feature-icon {
   font-size: 24px;
-  color: #fc6e51;
+  color: #FFEBCD;
   margin-right: 20px;
 }
 

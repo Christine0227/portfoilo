@@ -421,7 +421,7 @@ p {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > 
 .active > a:focus {
   background: transparent;
-  color: #fc6e51;
+  color: #FFEBCD;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -751,7 +751,7 @@ ul.choose-list li, ul.soon-list li {
 
 .iconbox i {
   font-size: 32px;
-  color: #fc6e51
+  color: #FFEBCD
 }
 
 .choose-box-content, .soon-box-content {
@@ -1779,11 +1779,13 @@ ul.details-list li:last-child {
 ----------------------*/
 
 #features-section {
-  padding: 120px 0!important;
-  padding-bottom: 100px!important;
+  text-align: center;
+  padding: 120px ;
+  padding-bottom: 100px;
 }
 
 #features-section .title-section {
+  text-align: center;
   padding-bottom: 80px;
 }
 
@@ -1806,24 +1808,24 @@ ul.features-list li {
 }
 
 .iconbox {
-  float: left;
+
   width: 50px;
   height: 50px;
-  text-align: center;
 }
 
 .iconbox i {
   font-size: 32px;
-  color: #fc6e51
+  color: #D2B48C
 }
 
 .features-box-content {
-  margin-left: 70px;
+  align-items:center;
+  justify-content:center;
 }
 
 .features-box-content h6 {
-  margin-top: 0;
-  font-size: 14px;
+  margin-top: 15px;
+  font-size: 15px;
   font-weight: 500;
   letter-spacing: 2px;
   margin-bottom: 15px;
@@ -1838,16 +1840,21 @@ ul.features-list li {
   letter-spacing: 2px;
   font-size: 32px;
   text-transform: capitalize;
+  align-items:center;
+  justify-content:center;
 }
 
 #creative-section-1 p, #creative-section-2 p, #features-app-section-1 p {
   line-height: 26px;
   font-size: 14px;
+  align-items:center;
+  justify-content:center;
 }
 
 #creative-section-1 .view-more, #creative-section-2 .view-more, #features-app-section-1 .view-more, #features-app-section-2 .view-more {
   padding-top: 30px;
-  text-align: left!important;
+  align-items:center;
+  justify-content:center;
 }
 
 .img-creative-left figure, .img-creative-right figure {

@@ -1808,25 +1808,25 @@ ul.features-list li {
 }
 
 .iconbox {
-
+  margin:center;
   width: 50px;
   height: 50px;
 }
 
 .iconbox i {
+  padding-left: 200px;
   font-size: 32px;
   color: #D2B48C
 }
 
 .features-box-content {
-  align-items:center;
-  justify-content:center;
+ margin: center;
 }
 
 .features-box-content h6 {
   margin-top: 15px;
   font-size: 15px;
-  font-weight: 500;
+  margin: center;
   letter-spacing: 2px;
   margin-bottom: 15px;
 }

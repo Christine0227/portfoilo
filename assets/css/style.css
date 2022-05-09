@@ -1840,21 +1840,15 @@ ul.features-list li {
   letter-spacing: 2px;
   font-size: 32px;
   text-transform: capitalize;
-  align-items:center;
-  justify-content:center;
 }
 
 #creative-section-1 p, #creative-section-2 p, #features-app-section-1 p {
   line-height: 26px;
   font-size: 14px;
-  align-items:center;
-  justify-content:center;
 }
 
 #creative-section-1 .view-more, #creative-section-2 .view-more, #features-app-section-1 .view-more, #features-app-section-2 .view-more {
   padding-top: 30px;
-  align-items:center;
-  justify-content:center;
 }
 
 .img-creative-left figure, .img-creative-right figure {

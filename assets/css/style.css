@@ -1246,7 +1246,6 @@ h6.progress-value {
 #prices-section .title-section {
   padding-bottom: 80px;
 }
-
 ul.price-table {
   list-style-type: none;
   padding: 0px;
@@ -1771,6 +1770,7 @@ ul.features-list li {
   letter-spacing: 2px;
   margin-bottom: 20px;
   font-family: serif;
+  color: #D2B48C;
 }
 .features-box-content h6 {
   margin-top: 20px;
@@ -1781,7 +1781,7 @@ ul.features-list li {
   font-family: serif;
 }
 .features-box-content p {
-  margin-top: 15px;
+  margin-top: 20px;
   font-size: 15px;
   margin: center;
   letter-spacing: 2px;

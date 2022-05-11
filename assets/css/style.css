@@ -675,7 +675,6 @@ ul.caption-slides li {
   margin-top: 0;
   margin-bottom: 28px;
   font-size: 32px;
-  font-weight: 300;
   line-height: 1.45;
   text-transform: none;
   color: #000;
@@ -685,7 +684,6 @@ ul.caption-slides li {
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 1.7px;
-  font-weight: 300;
   text-indent:2em;
   text-align: left;
 }
@@ -716,7 +714,6 @@ ul.caption-slides li {
 }
 
 .about-box h4 {
-  font-weight: 600;
   letter-spacing: 1.7px;
   padding-top: 15px;
   padding-bottom: 8px;
@@ -763,7 +760,6 @@ ul.choose-list li, ul.soon-list li {
 .choose-box-content h6, .soon-box-content h6 {
   margin-top: 0;
   font-size: 14px;
-  font-weight: 500;
   letter-spacing: 2px;
   margin-bottom: 15px;
 }
@@ -901,48 +897,6 @@ a:hover .overlay {
 
 #masonry-projects-section #type-masory .project {
   padding-bottom: 30px;
-}
-
-/***********************************************************************************************/
-/* =clients section*/
-/***********************************************************************************************/
-
-.clients-bg {
-  background: url('../images/clients/clients-bg.jpg') center top;
-  position: relative;
-  padding: 60px 0;
-}
-
-.clients-bg:before {
-  position: absolute;
-  content: '';
-  top: 0;
-  left: 0;
-  background: rgba(5,5,5,0.8);
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-}
-
-.clients-bg .container {
-  position: relative;
-  z-index: 3;
-}
-
-.client {
-  padding: 30px;
-}
-
-.client a {
-  display: block;
-}
-
-.client a img {
-  width: 100%
-}
-
-.client a:hover {
-  opacity: .8;
 }
 
 /***********************************************************************************************/
@@ -1086,7 +1040,6 @@ span.percentfactor {
 
 #about-team h3, #personal-skills h3 {
   font-size: 18px;
-  font-weight: 400;
   letter-spacing: 1.6px;
 }
 
@@ -1255,7 +1208,6 @@ h6.progress-value {
 
 #action-section h2 {
   padding-bottom: 25px;
-  font-weight: 500;
   text-transform: capitalize;
 }
 
@@ -1286,7 +1238,6 @@ h6.progress-value {
 
 .process h5 {
   font-size: 14px;
-  font-weight: 500;
   text-transform: none;
   margin-top: 15px;
 }
@@ -1312,7 +1263,6 @@ ul.price-table li {
 .title-price {
   border-bottom: 1px solid #f1f1f1;;
   padding: 25px!important;
-  font-weight: 500;
 }
 
 .title-price h3 {
@@ -1328,7 +1278,6 @@ ul.price-table li {
 
 p.price {
   font-size: 38px;
-  font-weight: 700;
   color: #000;
   position: relative;
   padding-left: 10px;
@@ -1371,6 +1320,8 @@ ul.price-table li .btn {
 
 #portfolio-section {
   padding: 80px 0;
+  font-family:serif;
+
 }
 
 ul.filter-list {
@@ -1464,7 +1415,6 @@ ul.tweet-slider {
 ul.tweet-slider h3 {
   font-size: 20px;
   color: #fff;
-  font-weight: 400;
   text-transform: capitalize;
   letter-spacing: 1.3px;
 }
@@ -1585,20 +1535,6 @@ textarea.form-control {
   margin-bottom: 15px;
 }
 
-/***********************************************************************************************/
-/* =Google maps*/
-/***********************************************************************************************/
-
-#map {
-  height: 100%;
-  width: 100%;
-}
-
-#module-maps {
-  position: relative;
-  height: 400px;
-  width: 100%;
-}
 
 /***********************************************************************************************/
 /* =Single-project */
@@ -1784,11 +1720,13 @@ ul.details-list li:last-child {
   text-align: center;
   padding: 120px ;
   padding-bottom: 100px;
+  font-family: serif;
 }
 
 #features-section .title-section {
   text-align: center;
   padding-bottom: 80px;
+  font-family: serif;
 }
 
 .features-image {
@@ -1803,6 +1741,7 @@ ul.features-list {
   list-style: none;
   padding: 0;
   padding-top: 50px;
+  font-family: serif;
 }
 
 ul.features-list li {
@@ -1831,6 +1770,7 @@ ul.features-list li {
   margin: center;
   letter-spacing: 2px;
   margin-bottom: 15px;
+  font-family: serif;
 }
 
 .creative-content-left, .creative-content-right {
@@ -1838,7 +1778,7 @@ ul.features-list li {
 }
 
 #creative-section-1 h2, #creative-section-2 h2, #features-app-section-1 h2, #features-app-section-2 h2 {
-  font-weight: 400;
+  font-family: serif;
   letter-spacing: 2px;
   font-size: 32px;
   text-transform: capitalize;
@@ -1847,15 +1787,18 @@ ul.features-list li {
 #creative-section-1 p, #creative-section-2 p, #features-app-section-1 p {
   line-height: 26px;
   font-size: 14px;
+  font-family: serif;
 }
 
 #creative-section-1 .view-more, #creative-section-2 .view-more, #features-app-section-1 .view-more, #features-app-section-2 .view-more {
   padding-top: 30px;
+  font-family: serif;
 }
 
 .img-creative-left figure, .img-creative-right figure {
   padding: 0 25px;
   text-align: center;
+  font-family: serif;
 }
 
 /*--------------------
@@ -1873,16 +1816,18 @@ ul.features-list li {
   content: '';
   top: 0;
   left: 0;
-  background:  #FFEBCD;
+  background:  #D2B48C;
   opacity: .9;
   width: 100%;
   height: 100%;
   z-index: 2;
+  font-family: serif;
 }
 
 #video-section .container {
   position: relative;
   z-index: 3;
+  font-family: serif;
 }
 
 #video-section .video-section-content a {
@@ -1898,6 +1843,7 @@ ul.features-list li {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+  font-family: serif;
 }
 
 #video-section .video-section-content a .fa-play {
@@ -1912,6 +1858,7 @@ ul.features-list li {
   text-align: center;
   color: #fff;
   padding-bottom: 7px;
+  font-family: serif;
 }
 
 .video-sub-heading {
@@ -1921,6 +1868,8 @@ ul.features-list li {
   line-height: 1.3;
   opacity: .9;
   color: #fff;
+  font-family: serif;
+
 }
 
 /*--------------------
@@ -1929,7 +1878,7 @@ ul.features-list li {
 
 #landing-offer .title-section h2 {
   padding-bottom: 10px;
-  font-weight: 500;
+ 
   letter-spacing: 1.5px;
 }
 
@@ -1941,7 +1890,7 @@ ul.features-list li {
   margin-top: 15px;
   margin-bottom: 20px;
   text-transform: none;
-  font-weight: 500;
+
 }
 
 .offer-icon {
@@ -1955,7 +1904,9 @@ ul.features-list li {
 ----------------------*/
 
 #screenshots-section .title-section {
+  font-family:sans-serif;
   padding-bottom: 80px;
+  text-indent: 2em;
 }
 
 .screenshots-carousel .shot {

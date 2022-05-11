@@ -1922,44 +1922,6 @@ ul.features-list li {
   width: 100%;
 }
 
-/*--------------------
-  Subscribe section
-----------------------*/
-
-#subscribe-section {
-  background: #f8f8f8;
-  padding: 70px 0;
-  border-top: 1px solid #EAEAEA;
-  border-bottom: 1px solid #EAEAEA;
-}
-
-.newsletter-title {
-  margin-bottom: 30px;
-}
-
-.newsletter-title h4 {
-  font-weight: 400;
-}
-
-.newsletter-field {
-  width: 65%;
-}
-
-#subscriber-email {
-  width: 100%;
-}
-
-.subscription-success, .subscription-error {
-  text-align: center;
-  font-weight: 400;
-  margin: 20px 0 25px 0;
-  font-size: 13px;
-}
-
-.subscription-success span, .subscription-error span {
-  margin-bottom: 15px;
-  font-size: 24px;
-}
 
 /*--------------------
   Testimonials section

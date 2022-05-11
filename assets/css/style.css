@@ -1764,13 +1764,20 @@ ul.features-list li {
 .features-box-content {
  margin: center;
 }
-
-.features-box-content h6 {
-  margin-top: 15px;
-  font-size: 15px;
+.features-box-content h2{
+  margin-top: 20px;
+  font-size: 30px;
   margin: center;
   letter-spacing: 2px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
+  font-family: serif;
+}
+.features-box-content h6 {
+  margin-top: 20px;
+  font-size: 20px;
+  margin: center;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
   font-family: serif;
 }
 .features-box-content p {
